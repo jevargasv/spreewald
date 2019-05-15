@@ -221,5 +221,5 @@ Feature: Web steps
 
 
   Scenario: /^I should get a download with filename "([^\"]*)"$/
-    When I go to "downloads/spreadsheet"
+    When I go to "/downloads/spreadsheet"
     Then I should get a download with filename "test.ods"
